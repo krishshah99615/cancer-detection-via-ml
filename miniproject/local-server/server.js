@@ -7,5 +7,5 @@ app.use(function(req,res,next){
 
 app.use(express.static("../static"));
 app.listen(81,function(){
-    console.log("Serving  static on 81");
+    console.log("Serving  static on port 81");
 });
